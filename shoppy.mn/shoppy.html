@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoppy.mn</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./shoppy.css">
+</head>
+<body>
+    
+    <header>
+        <a style="color: white" href="/shoppy.html">Shoppy.mn</a>  
+
+        <a style="color: white" href="./cart/cart.html">
+            <i onmouseover="showCart()" onmouseleave="hideCart()" class="fa-solid fa-cart-arrow-down">
+
+                <div class="cart">
+                    <!-- <div class="singleProduct"> 
+                        <div class="singleProductLeft">
+                            <img src="https://cdn3.shoppy.mn/spree/images/1307725/product/open-uri20220415-1859205-ouc9lb." alt="">
+                        </div>
+    
+                        <div class="singleProductMain">
+                            <h6>sun glass</h6>
+                            <div class="singleProductMainPCont">
+                                <p>99,000 ₮</p>
+                                <p>тоо ширхэг:  1</p>
+                            </div>
+                        </div>
+    
+                        <div class="singleProductLeft">
+                            <i class="fa-solid fa-x"></i>
+                        </div>
+                    </div> -->
+                </div>
+            
+            </i>
+        </a>
+    </header>
+
+    
+    <div class="fixed-parent">
+        <!-- <div class="fixed-header">
+            Shoppy.mn
+            <i onmouseover="showFixedCart()" onmouseleave="hideFixedCart()" class="fa-solid fa-cart-arrow-down">
+                <div id="fixed-cart" class="cart">
+        
+                </div>
+            </i>
+        </div>
+        <div class="cont">
+            <input type="text" value="9086772064522102" >
+            <div class="left">
+                <img src="https://cdn3.shoppy.mn/spree/images/1307725/product/open-uri20220415-1859205-ouc9lb." alt="">
+            </div>
+    
+            <div class="right">
+                <i onclick="cancelUzeh()" class="fa-solid fa-arrow-right-from-bracket"></i>
+                <h2>TRAVEL KIT PACK M</h2>
+                <p>Урт оосортой жижиг цүнх</p>
+                <br>
+                <br>
+                <p>Онлайн авах үнэ</p>
+                <p>99,000 ₮</p>
+                <br>
+                <br>
+                <button id="add-to-cart" >сагсанд нэмэх</button>
+                <button>худалдан авах</button>
+                <div class="setCount">
+                    <div onclick="minusCount()" class="minus">-</div>
+                    <div class="count">1</div>
+                    <div onclick="addCount()" class="plus">+</div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+
+
+
+    <div class="main-parent">
+        <div class="main">
+
+            <div class="grid-item">
+                <input type="text" value="9086772064522102" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1307725/product/open-uri20220415-1859205-ouc9lb." alt="">
+                </div>
+                <div class="product-info">
+                    <h3>TRAVEL KIT PACK M</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >88</span>  </h6>
+                    <p class="font-small" >Урт оосортой жижиг цүнх</p>
+                    <p class="colorRed" >99,900 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="908677206434423" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1308465/small/open-uri20220418-1906795-n3z550." alt="">
+                </div>
+                <div class="product-info">
+                    <h3>Чихэвч</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >6</span>  </h6>
+                    <p class="font-small" >wireless</p>
+                    <p class="colorRed" >120,000 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="1908677206432344423" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/634439/large/DSC09464.JPG" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>JOYOR F1 ЦАХИЛГААН СКҮҮТЭР</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >30</span>  </h6>
+                    <p class="font-small" >Скүүтэр - Цахилгаан</p>
+                    <p class="colorRed" >1,600,000 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="190867720643234344423" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1311992/large/4990600.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>3 CULOTTES</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >4</span>  </h6>
+                    <p class="font-small" >Дотоож</p>
+                    <p class="colorRed" >67,860 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="19086773212320643234344423" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1311772/large/221K-F12-2945-1.jpg" alt="">
+                </div>
+                <div class="product-info">
+                    <h3>ПҮҮЗ</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >100</span>  </h6>
+                    <p class="font-small" >Кет (Сникерс)</p>
+                    <p class="colorRed" >109,800 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="190867712332123206433" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1310886/large/open-uri20220419-2005718-709vo6." alt="">
+                </div>
+                <div class="product-info">
+                    <h3>VILDKORN PILLOW</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >11</span>  </h6>
+                    <p class="font-small" >Дэр</p>
+                    <p class="colorRed" >46,200 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="190867749823794206433" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1306695/large/open-uri20220415-1797231-1a7ax6u." alt="">
+                </div>
+                <div class="product-info">
+                    <h3>GORE-TEX O.D. CAP</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >19</span>  </h6>
+                    <p class="font-small" >Малгай</p>
+                    <p class="colorRed" >149,000 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+            <div class="grid-item">
+                <input type="text" value="1023894234767749823794206433" >
+                <div class="product-image">
+                    <img src="https://cdn3.shoppy.mn/spree/images/1308468/large/open-uri20220418-1906795-18s7t1k." alt="">
+                </div>
+                <div class="product-info">
+                    <h3>УТАСГҮЙ ЧИХЭВЧ</h3>
+                    <h6 class="aguulah" >Агуулах:  <span class="aguulah-span" >3</span>  </h6>
+                    <p class="font-small" >Чихэвч</p>
+                    <p class="colorRed" >119,800 ₮</p>
+                    <button class="uzeh" id="uzeh" >Үзэх</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+    <!-- localStorage.aguulah = [
+        {productId: 9086772064522102, availableAmount: 88} ,
+        {productId: 908677206434423, availableAmount: 6} ,
+        {productId: 1908677206432344423, availableAmount: 30} ,
+        {productId: 190867720643234344423, availableAmount: 4} ,
+        {productId: 19086773212320643234344423, availableAmount: 100} ,
+        {productId: 190867712332123206433, availableAmount: 11} ,
+        {productId: 190867749823794206433, availableAmount: 19} ,
+        {productId: 1023894234767749823794206433, availableAmount: 3} , 
+    ] -->
+
+    <!-- <div class="  col-6 col-sm-4 col-md-3">
+        <div itemtype="http://schema.org/Product" itemscope="" class="indexstyle__SingleProductWrapper-sc-13afki8-0 bAXhAO">
+            <meta itemprop="sku" content="202304HGC62QE">
+            <meta itemprop="mpn" content="202304HGC62QE">
+            <meta itemprop="description" content="Smith Mens Redding Matte Brown Tortoise Frame ChromaPop Polarized Bronze Mirror Lens Sunglasses - 202304HGC62QE. Redding is a fashion statement, for which sunshine is not necessarily required, because these sunglasses enhance your natural radiance turning night into day. The new Smith underlines that you are a trendsetter. These Sunglasses are a guarantee for looking good for both men and women. Plastic frames like these combine durability and are comfortable to wear. The REDDING is a very snug fit on the ears and nose.">
+            <div class="ins">
+                <a href="/products/redding-matte-amber-tortoise-polar-bronze-mirror">
+                    <img itemprop="image" alt="Redding Matte Amber Tortoise Polar Bronze Mirror" src="https://cdn3.shoppy.mn/spree/images/1266335/product/data." class="">
+                </a>
+                <a class="brand-logo" itemtype="http://schema.org/Brand" itemprop="brand" itemscope="" href="/brand/smith">
+                    <meta itemprop="name" content="SMITH"><img alt="SMITH" src="https://cdn3.shoppy.mn/stores/3512/medium/smith1.jpeg" itemprop="logo">
+                </a>
+                <button type="button" class="btn-view-similar">Төстэйг харах</button>
+            </div>
+            <a href="/products/redding-matte-amber-tortoise-polar-bronze-mirror">
+                <div class="dtl">
+                    <h2 itemprop="name">Redding Matte Amber Tortoise Polar Bronze Mirror</h2>
+                    <h4 itemprop="alternateName">Нүдний шил</h4>
+                    <div class="pb" itemprop="offers" itemscope="" itemtype="https://schema.org/Offer">
+                        <link itemprop="url" href="https://shoppy.mn/products/redding-matte-amber-tortoise-polar-bronze-mirror">
+                        <meta itemprop="availability" content="https://schema.org/InStock">
+                        <meta itemprop="itemCondition" content="https://schema.org/NewCondition">
+                        <meta itemprop="priceCurrency" content="MNT">
+                        <span itemprop="price" content="658900" class="">658,900 ₮</span>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+
+                             -->
+
+
+
+
+
+
+
+    <script src="./shoppy.js"></script>
+</body>
+</html>
